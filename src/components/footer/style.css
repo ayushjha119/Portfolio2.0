@@ -1,0 +1,52 @@
+#footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  padding: 15px 30px;
+  /* background: var(--dark-blue);
+  color: var(--light); */
+  background-color: darkgray;
+}
+
+.footer-social{
+  display: flex;
+}
+
+.footer-social img{
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+#copyright{
+  display: flex;
+  align-items: center;
+}
+
+#copyright p{
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  margin-top: 12px;
+  
+  color: black;
+ 
+  
+}
+
+#name {
+  font-size: 1.25rem;
+}
+
+
+#myLogo-footer{
+  width: 50px;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 400px){
+  #footer{
+      padding: 15px 18px;
+  }
+}
